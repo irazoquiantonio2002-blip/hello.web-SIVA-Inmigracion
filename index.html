@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIVA Inmigración | Asesoría Legal Migratoria a Estados Unidos · Atoyac, Jalisco</title>
+  <meta name="description" content="Despacho jurídico especializado en trámites migratorios hacia Estados Unidos: visas, residencia (Green Card), ciudadanía, perdones, pasaporte americano, actas y apostillas. Asesoría clara y honorarios transparentes en Atoyac, Jalisco.">
+  <meta name="keywords" content="trámites migratorios Estados Unidos, visa americana B1 B2, residencia permanente, green card, ciudadanía americana, perdón consular, perdón I-212 I-601, pasaporte americano, abogado de inmigración, SIVA Inmigración, Atoyac Jalisco">
+  <meta property="og:title" content="SIVA Inmigración | Despacho Jurídico · Trámites Migratorios EE. UU.">
+  <meta property="og:description" content="Visas, residencia, ciudadanía, perdones y pasaporte americano. Asesoría legal migratoria clara y personalizada en Atoyac, Jalisco.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <link rel="icon" type="image/png" href="img/logo-siva.png">
+  <link rel="apple-touch-icon" href="img/logo-siva.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-logo-wrap">
+      <img src="img/logo-siva.png" alt="" class="loader-logo">
+      <div class="loader-spinner"></div>
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Cargando...</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="SIVA Inmigración — inicio">
+          <div class="nav-logo-icon" aria-hidden="true">
+            <img src="img/logo-siva.png" alt="">
+          </div>
+          <div class="nav-logo-copy">
+            <span>SIVA</span>
+            <span>Inmigración</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Por qué SIVA</a></li>
+            <li><a href="#ambientes">Servicios</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#sectores">Trámites</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Agenda tu Asesoría
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Por qué SIVA</a>
+      <a href="#ambientes">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#sectores">Trámites</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Agenda tu Asesoría →</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Parallax background image (fixed) -->
+      <div class="hero-bg" aria-hidden="true"></div>
+      <!-- Dark overlays -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <!-- Grid texture -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Canvas particle orbs -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Light shafts -->
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <!-- Film grain overlay -->
+      <div class="hero-grain" aria-hidden="true"></div>
+      <!-- One-shot scan reveal -->
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <!-- Live badge -->
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Despacho Jurídico · Atoyac, Jalisco
+          </div>
+
+          <!-- Animated title -->
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Tu camino a</span></span>
+            <span class="line"><span>Estados Unidos,</span></span>
+            <span class="line"><span class="accent">bien asesorado.</span></span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="hero-sub" id="hero-sub">
+            Somos el despacho jurídico que convierte un proceso migratorio complejo en pasos claros: visas, residencia, ciudadanía, perdones y pasaporte americano — con <strong>honorarios transparentes desde el primer día</strong>.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Solicitar Asesoría Gratuita
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#ambientes" class="btn-outline">
+              <i class="fa-solid fa-passport" style="font-size:15px; color:var(--gray);"></i>
+              Ver Servicios
+            </a>
+          </div>
+
+          <!-- Trust bar -->
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-scale-balanced"></i>
+              Asesoría Legal Especializada
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-brands fa-whatsapp"></i>
+              Respuesta Directa por WhatsApp
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-location-dot"></i>
+              Atoyac, Jalisco
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         WHY — La diferencia SIVA
+    ══════════════════════════════════════════════════ -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">La diferencia SIVA</div>
+            <h2 class="why-quote" id="why-heading">
+              Un trámite migratorio no es solo papeleo…
+              <em>es el futuro de tu familia.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Combinamos conocimiento profundo de la legislación migratoria estadounidense con acompañamiento cercano, honesto y transparente en cada etapa de tu proceso.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-scale-balanced"></i>
+            </div>
+            <h3>Asesoría Legal Especializada</h3>
+            <p>Conocemos a fondo la legislación migratoria de Estados Unidos para guiar tu caso con precisión desde la primera consulta.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-passport"></i>
+            </div>
+            <h3>Trámites de Todo Tipo</h3>
+            <p>Visas, residencia, ciudadanía, perdones, pasaporte americano, actas y apostillas: gestionamos tu proceso completo en un mismo despacho.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-file-invoice-dollar"></i>
+            </div>
+            <h3>Honorarios Transparentes</h3>
+            <p>Conoces el costo exacto de tu trámite desde el día uno, sin letras chiquitas ni cobros sorpresa.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <h3>Acompañamiento Personalizado</h3>
+            <p>Te explicamos cada paso en un lenguaje claro y damos seguimiento puntual hasta la resolución de tu caso.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         AMBIENTES — Servicios principales
+    ══════════════════════════════════════════════════ -->
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Servicios Principales</div>
+            <h2 class="section-title" id="amb-heading">
+              No todos los trámites<br>
+              <span class="gold">requieren el mismo camino</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
+              Cada caso migratorio es distinto. Te ayudamos a identificar la ruta legal correcta para tu situación.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">¿Cuál es tu caso?</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+
+          <!-- Visas y Residencia -->
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?q=80&w=1400&auto=format&fit=crop"
+              alt="Estatua de la Libertad, símbolo de la residencia y visa en Estados Unidos">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(108,116,232,0.15); border-color:rgba(108,116,232,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-passport" style="color:var(--blue-light);"></i>
+              </div>
+              <h3>Visas y Residencia</h3>
+              <p>Tramitamos tu Visa B1/B2 y tu Residencia Permanente (Green Card, LPR) con acompañamiento en cada etapa del proceso.</p>
+              <div class="amb-temp">Visa B1/B2 · Residencia LPR</div>
+            </div>
+          </div>
+
+          <!-- Ciudadanía y Pasaporte -->
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1400&auto=format&fit=crop"
+              alt="Ala de avión al atardecer, viaje hacia Estados Unidos">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(255,255,255,0.1); border-color:rgba(255,255,255,0.3);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-flag-usa" style="color:white;"></i>
+              </div>
+              <h3>Ciudadanía y Pasaporte</h3>
+              <p>Te acompañamos en tu proceso de naturalización y en la obtención de tu U.S. Passport, actas y CRBA para ti y tu familia.</p>
+              <div class="amb-temp">Ciudadanía · U.S. Passport · CRBA</div>
+            </div>
+          </div>
+
+          <!-- Perdones y Apostillas -->
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1400&auto=format&fit=crop"
+              alt="Estatua de la justicia, perdones consulares y apostillas">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(255,0,0,0.12); border-color:rgba(255,0,0,0.35);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-gavel" style="color:#ff6b6b;"></i>
+              </div>
+              <h3>Perdones y Apostillas</h3>
+              <p>Gestionamos tu Perdón Consular, Perdón I-212/I-601, actas y apostillas para regularizar tu situación migratoria.</p>
+              <div class="amb-temp">Perdón Consular · I-212/I-601</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROCESO — Cómo trabajamos
+    ══════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Cómo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            Simple, claro y <span class="gold">profesional</span>
+          </h2>
+          <p>Desde la primera consulta hasta la resolución de tu caso, te acompañamos en cada paso del proceso.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Consulta Inicial</h3>
+            <p>Evaluamos tu situación migratoria y te explicamos con claridad qué trámite necesitas y cuáles son tus opciones. Sin compromiso.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Honorarios y Expediente</h3>
+            <p>Te damos un costo transparente y armamos junto contigo el expediente con todos los documentos que tu trámite requiere.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Seguimiento hasta la Resolución</h3>
+            <p>Damos seguimiento puntual a tu caso ante consulado o migración, y te mantenemos informado en cada etapa.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PRODUCTO — Nuestro Compromiso
+    ══════════════════════════════════════════════════ -->
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">Nuestro Compromiso</div>
+            <h2 class="section-title" id="prod-heading">
+              Un despacho jurídico<br>
+              <span class="gold">pensado para tu tranquilidad</span>
+            </h2>
+            <p class="producto-lead">
+              Somos un despacho jurídico especializado en la asesoría legal migratoria de los Estados Unidos. Te brindamos asesoría profesional, clara y personalizada para cada etapa de tu proceso.
+            </p>
+
+            <ul class="feature-rows" aria-label="Compromisos de SIVA Inmigración">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-scale-balanced"></i></div>
+                <div>
+                  <h4>Asesoría Legal Especializada</h4>
+                  <p>Conocimiento profundo de la legislación migratoria estadounidense aplicado a tu caso particular.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-folder-open"></i></div>
+                <div>
+                  <h4>Trámites Completos</h4>
+                  <p>Visas, residencias, ciudadanía, perdones, pasaportes, actas y apostillas — todo en un mismo despacho.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                <div>
+                  <h4>Honorarios Transparentes</h4>
+                  <p>Conoces el costo total de tu trámite desde el primer día, sin sorpresas.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></div>
+                <div>
+                  <h4>Comunicación Directa</h4>
+                  <p>Resolvemos tus dudas por WhatsApp y te damos seguimiento personal en cada etapa.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Honorarios de trámites adicionales">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">$6,000</span>
+                <span class="spec-name">Perdón Consular</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">$20,000</span>
+                <span class="spec-name">Perdón I-212 / I-601</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">$11,000</span>
+                <span class="spec-name">Actas y Apostillas</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">$8,000</span>
+                <span class="spec-name">CRBA</span>
+              </div>
+            </div>
+            <p class="specs-note">Honorarios del despacho en pesos mexicanos (MXN). Los costos consulares o de migración se cotizan por separado según el trámite.</p>
+          </div>
+
+          <!-- Visual -->
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="led-panel-body"
+                   role="img" aria-label="SIVA Inmigración — despacho jurídico especializado">
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Trámites de Todo Tipo
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-shield-halved" style="color:var(--blue-light);"></i>
+                Asesoría 100% en Español
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS — Servicios y Costos
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-labelledby="stats-heading">
+      <div class="container">
+
+        <div class="stats-hdr reveal">
+          <div class="label" style="justify-content:center;">Servicios y Costos</div>
+          <h2 class="section-title" id="stats-heading">
+            Los trámites más solicitados
+          </h2>
+          <p>Conoce el costo de nuestros honorarios. Los trámites consulares o de migración se cotizan por separado.</p>
+        </div>
+
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="1200" data-prefix="$" data-suffix=" MXN"
+                 aria-label="1,200 pesos mexicanos">0</div>
+            <div class="stat-lbl">Visa B1/B2<br>Honorarios</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="45000" data-prefix="$" data-suffix=" MXN"
+                 aria-label="45,000 pesos mexicanos">0</div>
+            <div class="stat-lbl">Residencia LPR<br>Honorario mínimo</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="30000" data-prefix="$" data-suffix=" MXN"
+                 aria-label="30,000 pesos mexicanos">0</div>
+            <div class="stat-lbl">Ciudadanía<br>Costo total*</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="4000" data-prefix="$" data-suffix=" MXN"
+                 aria-label="4,000 pesos mexicanos">0</div>
+            <div class="stat-lbl">U.S. Passport<br>Honorarios</div>
+          </div>
+
+        </div>
+        <p class="specs-note" style="text-align:center; margin-top:30px;">*Incluye impuestos de migración. Consulta el detalle completo de cada trámite con nuestro equipo.</p>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SECTORES — Trámites que gestionamos
+    ══════════════════════════════════════════════════ -->
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">Trámites que Gestionamos</div>
+          <h2 class="section-title" id="sec-heading">
+            Todo tu proceso, <span class="gold">en un solo lugar</span>
+          </h2>
+          <p>Un despacho, todos los trámites migratorios que necesitas.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-passport sector-icon" aria-hidden="true"></i>
+            <h3>Visas</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-id-card-clip sector-icon" aria-hidden="true"></i>
+            <h3>Residencias</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-scale-balanced sector-icon" aria-hidden="true"></i>
+            <h3>Perdones</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-gavel sector-icon" aria-hidden="true"></i>
+            <h3>Deportaciones</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-file-signature sector-icon" aria-hidden="true"></i>
+            <h3>Actas</h3>
+          </div>
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-stamp sector-icon" aria-hidden="true"></i>
+            <h3>Apostillas</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-flag-usa sector-icon" aria-hidden="true"></i>
+            <h3>Ciudadanía</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-book sector-icon" aria-hidden="true"></i>
+            <h3>U.S. Passport</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-chart-line sector-icon" aria-hidden="true"></i>
+            <h3>Inversiones</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-baby sector-icon" aria-hidden="true"></i>
+            <h3>CRBA</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Hablemos de <span class="gold">tu proceso</span>
+          </h2>
+          <p>Agenda tu asesoría gratuita. Te respondemos de inmediato por WhatsApp.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Info panel -->
+          <div class="contact-info">
+            <h3>Atención Personalizada</h3>
+            <p class="ci-sub">Despacho jurídico especializado en trámites migratorios hacia Estados Unidos.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Ubicación</h4>
+                  <p>Donato Guerra 155,<br>
+                     Atoyac, Jalisco, C.P. 49200.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Teléfono</h4>
+                  <p>
+                    <a href="tel:+523421091535">342 109 1535</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Escríbenos y te asesoramos en minutos.</p>
+                  <a href="https://wa.me/523312161840" target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat →
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /.contact-info -->
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <h3>Agenda tu Asesoría Gratuita</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué trámite te interesa?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Asesoría general</option>
+                    <option>Visa B1/B2</option>
+                    <option>Residencia (Green Card)</option>
+                    <option>Ciudadanía</option>
+                    <option>Perdón Consular</option>
+                    <option>Perdón I-212 / I-601</option>
+                    <option>U.S. Passport</option>
+                    <option>Actas y Apostillas</option>
+                    <option>CRBA</option>
+                    <option>Inversiones</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Cuéntanos tu caso</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Describe brevemente tu situación migratoria…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar a WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar serás redirigido a WhatsApp para continuar tu asesoría.
+              </p>
+            </form>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="img/logo-siva.png" alt="">
+          <span>SIVA Inmigración</span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> SIVA Inmigración. Todos los derechos reservados. Atoyac, Jalisco, México.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/share/18NSnQVVwZ/"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-soc" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://wa.me/523312161840" target="_blank"
+             rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════
+       FLOATING WHATSAPP
+  ══════════════════════════════════════════════════════ -->
+  <a href="https://wa.me/523312161840?text=Hola%2C%20visit%C3%A9%20su%20sitio%20web%20y%20me%20gustar%C3%ADa%20recibir%20asesor%C3%ADa%20sobre%20un%20tr%C3%A1mite%20migratorio."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
